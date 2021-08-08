@@ -26,7 +26,6 @@ namespace SharpBot
                     TokenType = TokenType.Bot,
                     AutoReconnect = true,
                     MinimumLogLevel = LogLevel.Debug,
-                    //UseInternalLogHandler = true
                 };
             Client = new DiscordClient(config);
             Client.Ready += OnClientReady;
